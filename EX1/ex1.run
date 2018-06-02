@@ -1,0 +1,8 @@
+reset;
+
+model ex1.mod;
+data ex1.dat;
+option solver cplexamp;
+
+solve;
+display usage;

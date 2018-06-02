@@ -1,0 +1,24 @@
+set food := bread meat patatoes cabbage milk gelatin;
+
+set nutrition := calories protein calcium vitamin_A;
+
+param content : bread meat patatoes cabbage milk gelatin :=
+calories 1254 1457 318 46 309 1735
+protein 39 73 8 4 16 43
+calcium 418 41 42 141 536 0
+vitamin_A 0 0 70 860 720 0;
+
+param required :=
+calories 3000
+protein 70
+calcium 800
+vitamin_A 500;
+
+param cost :=
+bread 0.3
+meat 1
+patatoes 0.05
+cabbage 0.08
+milk 0.23
+gelatin 0.48;
+

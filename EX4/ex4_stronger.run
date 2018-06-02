@@ -1,0 +1,13 @@
+
+reset;
+
+model ex4_stronger.mod;
+data ex4_stronger.dat;
+option solver cplexamp;
+
+solve;
+display x, t;
+
+option relax_integrality 1;
+solve;
+display x, t;

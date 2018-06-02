@@ -1,0 +1,12 @@
+reset;
+
+model ex3.mod;
+data ex3.dat;
+option solver cplexamp;
+
+solve;
+display x;
+
+option relax_integrality 1;
+solve;
+display x;

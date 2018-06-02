@@ -1,0 +1,15 @@
+set I := ad mg;
+
+param profit := 
+ad 1.8
+mg 1;
+
+param cost :=
+ad 20
+mg 10;
+
+param almassimo := 1000;
+
+param almeno :=
+ad 10
+mg 0;
